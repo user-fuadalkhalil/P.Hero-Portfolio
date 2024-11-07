@@ -1,82 +1,133 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
-    background-color: #fff9ea;
+  background-color: #fff9ea;
+  background-image: url(./images/profile-bg.png);
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 50px;
-    margin: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 50px;
+  margin: 0 200px;
 }
 
-nav>ul {
-    align-items: center;
+nav > ul {
+  align-items: center;
 }
 
 .logo {
-    font-weight: 800;
-    font-size: 40px;
+  font-weight: 800;
+  font-size: 40px;
+  cursor: pointer;
 }
 
 .r {
-    color: #fe5000;
+  color: #fe5000;
 }
 
 .items {
-    display: flex;
-
+  display: flex;
 }
 
 .items li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
 
 .items li a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: #474747;
 }
 
 .btn {
-    border: none;
-    background: #fe5000;
-    padding: 15px 35px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: background-color 0.3s ease
+  border: none;
+  background: #fe5000;
+  padding: 15px 35px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #c43e00;
-}
-
-.banner {
-    padding: 30px 30px 30px 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-color: #c43e00;
 }
 
 .btn-border {
-    background: none;
-    border: none;
-    outline: 3px solid #fe5000;
-    outline-offset: -2px;
-    color: #fe5000;
+  background: none;
+  border: none;
+  outline: 3px solid #fe5000;
+  outline-offset: -2px;
+  color: #fe5000;
 }
 
 .btn-border:hover {
-    border: none;
-    outline: none;
-    color: #fff;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+#download-btn {
+  margin-right: 20px;
+}
+
+.banner {
+  padding: 30px 50px 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-content {
+  max-width: 600px;
+}
+
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+}
+
+.banner-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 80px;
+}
+
+.banner-description {
+  margin-bottom: 20px;
+}
+
+/* main section style */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about section style */
+.about {
+  padding: 130px;
+  margin-top: 100px;
+  background-color: #f8e9b2;
+  border-radius: 20px;
+}
+
+.about-title {
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.about-description {
+    text-align: center;
 }
