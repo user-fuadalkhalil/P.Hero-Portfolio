@@ -122,12 +122,38 @@ main {
   border-radius: 20px;
 }
 
-.about-title {
+.section-title {
+  padding-bottom: 30px;
   font-size: 35px;
   text-align: center;
-  padding-bottom: 30px;
+  color: #333333;
 }
 
-.about-description {
+.section-description {
     text-align: center;
+    color: #52565e;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.about-info-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+.info-title {
+    padding-bottom: 10px;
+}
+.what-i-do {
+  margin-top: 100px;
+}
+
+#what-i-do-description {
+  padding: 0px 150px;
+  text-align: justify;
 }
