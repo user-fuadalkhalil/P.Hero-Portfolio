@@ -138,6 +138,7 @@ main section {
     color: #52565e;
     font-size: 18px;
     text-align: justify;
+    line-height: 1.5;
 }
 
 .about-info-container {
@@ -188,4 +189,46 @@ main section {
 .skill-description {
   color: #474747;
   font-size: 18px;
+  line-height: 1.5;
+}
+
+/*resume related styles*/
+
+.resume-container {
+  padding-top: 50px;
+  display: flex;
+  gap: 50px;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 20px;
+  color: #474747;
+}
+
+.resume-item-title {
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+
+.resume-item-institute, .resume-item-description {
+  color: #757575;
+}
+
+.resume-item-institute {
+  padding-bottom: 15px;
+}
+
+.resume-item-description {
+  line-height: 1.5;
+}
+
+.resume-container hr {
+  margin: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
