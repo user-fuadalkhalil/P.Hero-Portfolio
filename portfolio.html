@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="portfolio.css">
+
+    <script src="https://kit.fontawesome.com/f9b818b75b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -26,8 +28,8 @@
                 <h3 class="banner-greeting">Hi, I am</h3>
                 <h1 class="banner-title">Fuad Al Khalil</h1>
                 <p class="banner-description">I am a web developer skilled in creating dynamic, user-friendly websites and applications. With expertise in front-end and back-end technologies.</p>
-                <button class="btn" id="download-btn">Download CV</button>
-                <button class="btn btn-border">Contact</button>
+                <button class="btn" id="download-btn"><i class="fa-solid fa-download" style="color: #ffffff;"></i> Download CV</button>
+                <button class="btn btn-border"><i class="fa-solid fa-phone" style="color: #fe5000;"></i> Contact</button>
             </div>
             <img class="profile-pic" src="./images/profile-pic.png" alt="">
         </div>
@@ -142,8 +144,8 @@
     </main>
     <footer>
         <div class="footer-column">
-            <h3 class="section-title">Lets Connect</h3>
-            <p class="section-description" style="text-align: center;">Skilled web developer aiming to create responsive, user-friendly websites by leveraging expertise in HTML, CSS, JavaScript, and modern frameworks.</p>
+            <h3 class="section-title" style="text-align: left;">Lets Connect</h3>
+            <p class="section-description" style="text-align: start;">Skilled web developer aiming to create responsive, user-friendly websites by leveraging expertise in HTML, CSS, JavaScript, and modern frameworks.</p>
             <div class="social-links">
                 <a href="#">
                     <img src="./images/icons/facebook.png" alt="">
@@ -157,7 +159,13 @@
             </div>
         </div>
         <div class="footer-column">
-            <h3 class="section-title">Message Me</h3>
+            <h3 class="section-title" style="text-align: left;">Message Me</h3>
+            <form action="" class="contact">
+                <input type="text" placeholder="Your name">
+                <input type="email" placeholder="Your E-Mail">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <input type="submit" value="Submit" class="btn">
+            </form>
         </div>
     </footer>
 </body>
